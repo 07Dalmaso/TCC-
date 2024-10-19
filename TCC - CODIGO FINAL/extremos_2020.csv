@@ -1,0 +1,10 @@
+COD_REG,Arquivo,Mínimo de Precipitação,Máximo de Precipitação,Mínimo de Temperatura Máxima,Máximo de Temperatura Máxima,Mínimo de Temperatura Mínima,Máximo de Temperatura Mínima,Mínimo de Umidade Relativa Máxima,Máximo de Umidade Relativa Máxima,Mínimo de Umidade Relativa Mínima,Máximo de Umidade Relativa Mínima
+1,1-2020-BRAZLANDIA.csv,0.0,96.0,11.6,35.8,10.5,34.3,12.0,97.0,10.0,96.0
+2,2-2020-AGUAS EMENDADAS.csv,0.0,42.4,6.9,37.8,6.0,35.6,11.0,96.0,9.0,96.0
+3,3-2020-BRASILIA.csv,0.0,37.6,9.4,36.5,8.5,34.4,12.0,97.0,10.0,97.0
+4,4-2020-GAMA.csv,0.0,41.2,7.7,37.3,6.5,35.7,12.0,95.0,9.0,95.0
+5,5-2020-PARANOA.csv,0.0,70.2,10.0,37.1,9.1,35.3,17.0,100.0,14.0,100.0
+6,6-2020-CAMPOSDOSGOYTACAZES.csv,0.0,50.2,13.1,37.8,12.6,36.6,31.0,95.0,23.0,95.0
+7,7-2020-ANGRADOSREIS.csv,0.0,28.8,17.4,37.4,17.1,35.2,50.0,99.0,41.0,99.0
+8,8-2020-RIODEJANEIRO.csv,0.0,23.8,16.4,37.9,15.2,36.2,26.0,96.0,21.0,96.0
+9,9-2020-VALENCA.csv,0.0,56.2,20.1,36.1,19.7,34.6,45.0,96.0,37.0,96.0

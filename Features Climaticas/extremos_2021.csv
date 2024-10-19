@@ -1,0 +1,10 @@
+COD_REG,Arquivo,Mínimo de Precipitação,Máximo de Precipitação,Mínimo de Temperatura Máxima,Máximo de Temperatura Máxima,Mínimo de Temperatura Mínima,Máximo de Temperatura Mínima,Mínimo de Umidade Relativa Máxima,Máximo de Umidade Relativa Máxima,Mínimo de Umidade Relativa Mínima,Máximo de Umidade Relativa Mínima
+1,1-2021-BRAZLANDIA.csv,0.0,56.0,8.6,34.7,7.9,32.9,13.0,96.0,11.0,96.0
+2,2-2021-AGUAS EMENDADA .csv,0.0,62.8,6.6,37.1,5.9,35.1,12.0,96.0,10.0,96.0
+3,3-2021-BRASILIA.csv,0.0,62.8,8.6,35.4,7.6,33.4,12.0,97.0,11.0,97.0
+4,4-2021-GAMA.csv,0.0,37.6,6.4,37.0,4.9,34.8,11.0,95.0,10.0,95.0
+5,5-2021-PARANOA.csv,0.0,51.0,8.1,36.6,7.6,34.7,15.0,100.0,13.0,100.0
+6,6-2021-CAMPOSDOSGOYTACAZES.csv,0.0,56.0,10.8,37.6,9.8,37.0,29.0,95.0,23.0,95.0
+7,7-2021-ANGRADOSREIS.csv,0.0,50.4,10.3,37.6,9.1,36.0,34.0,100.0,25.0,100.0
+8,8-2021-RIODEJANEIRO.csv,0.0,32.6,15.2,36.9,15.0,33.4,23.0,97.0,14.0,97.0
+9,9-2021-VALENCA.csv,0.0,41.2,4.1,38.0,3.4,36.2,19.0,98.0,16.0,98.0
