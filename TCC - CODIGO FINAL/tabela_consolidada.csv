@@ -1,11 +1,21 @@
 Nome do Arquivo,Total,Ano,Região,COD_CIDADE
+dengue2019_AC.csv,69,2019,Arraial do Cabo,37
 dengue2019_AR.csv,1764,2019,Angra dos Reis,32
 dengue2019_CG.csv,177,2019,Campos de Goytacazes,34
+dengue2019_MA.csv,207,2019,Macaé,36
+dengue2020_AC.csv,5,2020,Arraial do Cabo,37
 dengue2020_AR.csv,187,2020,Angra dos Reis,32
 dengue2020_CG.csv,18,2020,Campos de Goytacazes,34
+dengue2020_MA.csv,50,2020,Macaé,36
+dengue2021_AC.csv,14,2021,Arraial do Cabo,37
 dengue2021_AR.csv,104,2021,Angra dos Reis,32
 dengue2021_CG.csv,94,2021,Campos de Goytacazes,34
+dengue2021_MA.csv,83,2021,Macaé,36
+dengue2022_AC.csv,42,2022,Arraial do Cabo,37
 dengue2022_AR.csv,504,2022,Angra dos Reis,32
 dengue2022_CG.csv,1142,2022,Campos de Goytacazes,34
+dengue2022_MA.csv,1201,2022,Macaé,36
+dengue2023_AC.csv,134,2023,Arraial do Cabo,37
 dengue2023_AR.csv,3248,2023,Angra dos Reis,32
 dengue2023_CG.csv,8300,2023,Campos de Goytacazes,34
+dengue2023_MA.csv,604,2023,Macaé,36
