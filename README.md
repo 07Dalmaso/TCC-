@@ -32,10 +32,10 @@ As variáveis utilizadas incluem:
 Os dados foram normalizados usando a técnica **Min-Max Scaling** para uniformizar as variáveis. Técnicas de interpolação foram aplicadas para lidar com valores faltantes.
 
 ### 2. Análise Estatística Descritiva
-Incluiu a análise de dispersão, gráficos de dispersão, e matrizes de correlação para identificar relações entre as variáveis climáticas e os casos de dengue.
+Incluiu a análise de dispersão, gráficos de dispersão, e matrizes de correlação para identificar relações entre as variáveis climáticas e os casos de dengue. O código utilizado para esta etapa pode ser acessado [aqui](https://github.com/07Dalmaso/TCC-Analise-de-dados-da-dengue/blob/master/TCC%20-%20CODIGO%20FINAL/analise_caso_dengue.ipynb).
 
 ### 3. Modelagem Preditiva
-Foi utilizada a **regressão logística multivalorada** para prever a incidência de casos de dengue e avaliar a significância das variáveis.
+Foi utilizada a **regressão logística multivalorada** para prever a incidência de casos de dengue e avaliar a significância das variáveis. O código da análise preditiva pode ser acessado [aqui](https://github.com/07Dalmaso/TCC-Analise-de-dados-da-dengue/blob/master/TCC%20-%20ANALISE%20PREDITIVA/anlise_preditiva.ipynb).
 
 ## Resultados
 
@@ -49,9 +49,9 @@ Foi utilizada a **regressão logística multivalorada** para prever a incidênci
 - **Melhorias sugeridas**: Inclusão de variáveis socioeconômicas e extensão do período de coleta de dados.
 
 ## Autores
-- Lucas Santos Dalmaso – lucassdalmaso25@gmail.com 
-- Sabrina Mendes Braga – sabrinamendesbraga@gmail.com.br 
-- Raul Carvalho de Souza (Orientador) –  raul.souza@iesb.edu.br
-- 
+- **Lucas Santos Dalmaso** – [email](mailto:lucassdalmaso25@gmail.com)
+- **Sabrina Mendes Braga** – [email](mailto:sabrinamendesbraga@gmail.com.br)
+- **Raul Carvalho de Souza (Orientador)** – [email](mailto:raul.souza@iesb.edu.br)
+
 ## Agradecimentos
-Agradecemos à instituição de ensino IESB pelo suporte acadêmico e pela oportunidade de desenvolver esta pesquisa. Também expressamos nossa gratidão ao professor Raul Carvalho de Souza, cujo suporte e orientação foram fundamentais para a conclusão deste trabalho.
+Agradecemos à instituição de ensino **IESB** pelo suporte acadêmico e pela oportunidade de desenvolver esta pesquisa. Também expressamos nossa gratidão ao professor **Raul Carvalho de Souza**, cujo suporte e orientação foram fundamentais para a conclusão deste trabalho.
