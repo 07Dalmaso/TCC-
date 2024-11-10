@@ -1,20 +1,21 @@
 # 🦠 Análise de Dados da Dengue no Distrito Federal e Rio de Janeiro
 
-Este repositório contém o código e a análise utilizados no estudo intitulado **"Análise de dados da dengue do Distrito Federal e Rio de Janeiro: verificação da consistência dos dados amostrais por meio de modelos preditivos de aprendizado de máquina"**. O objetivo principal é demonstrar a importância da qualidade e quantidade de dados para análises confiáveis, usando técnicas de estatística descritiva e aprendizado de máquina.
+Este repositório contém o código e a análise utilizados no estudo intitulado **"Análise de dados das ocorrências da dengue no Distrito Federal e Rio de Janeiro: uma verificação da consistência dos dados amostrais por meio de modelos preditivos de aprendizado de máquina"**. Este trabalho destaca a importância de dados significativos e consistentes para análises confiáveis e modelos preditivos precisos.
 
 ## 📄 Descrição do Projeto
 
-Este projeto aplica a metodologia **Design Science Research** para coletar, processar e analisar dados relacionados aos casos de dengue no Distrito Federal (DF) e Rio de Janeiro (RJ). A análise foi feita a partir de dados de incidência de dengue, dados climáticos e demográficos, abordando os seguintes pontos principais:
+O projeto aplica a metodologia **Design Science Research** para coletar, processar e analisar dados sobre casos de dengue em duas regiões brasileiras: Distrito Federal (DF) e Rio de Janeiro (RJ). O estudo inclui análises descritivas detalhadas e modelos preditivos para verificar a consistência dos dados e explorar relações entre variáveis.
 
-- **Análise estatística descritiva** para identificar padrões de incidência de dengue e relações com variáveis climáticas.
-- **Modelagem preditiva** usando regressão logística multivalorada para determinar a influência de variáveis como temperatura, umidade, precipitação e densidade populacional.
+### Objetivos:
+- **Análise estatística descritiva** para mapear padrões de incidência e avaliar a relação com variáveis ambientais e demográficas.
+- **Predição de casos de dengue** utilizando modelos de aprendizado de máquina, como regressão logística, árvore de decisão e SVM.
 
 ### 📊 Estrutura dos Dados
 
-- **Distrito Federal (DF)**: Dados coletados do site `saude.df`, abrangendo boletins epidemiológicos de 2019 a 2023.
-- **Rio de Janeiro (RJ)**: Dados extraídos do portal `sistemas.saude.rj`, cobrindo um período de 2016 a 2023.
+- **Distrito Federal (DF)**: Dados coletados do site `saude.df`, abrangendo 2019 a 2023.
+- **Rio de Janeiro (RJ)**: Dados extraídos do portal `sistemas.saude.rj`, abrangendo 2016 a 2023, com foco em municípios específicos com dados mais completos.
 
-As variáveis utilizadas incluem:
+Variáveis incluídas no estudo:
 - 🌡️ Temperatura máxima e mínima
 - 💧 Umidade máxima e mínima
 - 🌧️ Precipitação média
@@ -29,24 +30,32 @@ As variáveis utilizadas incluem:
 ## 🔍 Metodologia
 
 ### 1. Coleta e Pré-processamento de Dados
-Os dados foram normalizados usando a técnica **Min-Max Scaling** para uniformizar as variáveis. Técnicas de interpolação foram aplicadas para lidar com valores faltantes.
+Os dados foram pré-processados com interpolação para lidar com valores faltantes e normalizados usando **Min-Max Scaling** para uniformizar as variáveis.
 
 ### 2. Análise Estatística Descritiva
-Incluiu a análise de dispersão, gráficos de dispersão, e matrizes de correlação para identificar relações entre as variáveis climáticas e os casos de dengue. O código utilizado para esta etapa pode ser acessado [aqui](https://github.com/07Dalmaso/TCC-Analise-de-dados-da-dengue/blob/master/TCC%20-%20CODIGO%20FINAL/analise_caso_dengue.ipynb).
+Análise exploratória que inclui gráficos de dispersão, cálculos de correlação e visualização de padrões de casos de dengue.
 
-### 3. Modelagem Preditiva
-Foi utilizada a **regressão logística multivalorada** para prever a incidência de casos de dengue e avaliar a significância das variáveis. O código da análise preditiva pode ser acessado [aqui](https://github.com/07Dalmaso/TCC-Analise-de-dados-da-dengue/blob/master/TCC%20-%20ANALISE%20PREDITIVA/anlise_preditiva.ipynb).
+### 3. Análise Multivariada
+A regressão logística multivariada foi utilizada para avaliar a relação entre variáveis independentes (climáticas e demográficas) e os casos de dengue. Os coeficientes de significância foram analisados para determinar a relevância de cada variável.
+
+### 4. Predição e Comparação de Modelos
+Foi realizada uma análise preditiva para prever a incidência de casos de dengue nas próximas 52 semanas. Três modelos foram comparados:
+- **Regressão Logística**
+- **Árvore de Decisão**
+- **Support Vector Machine (SVM)**
+
+Cada modelo foi avaliado quanto à acurácia, e a comparação revelou que o modelo de **Árvore de Decisão** apresentou melhor desempenho em algumas regiões, enquanto o **SVM** se destacou em outras, ultrapassando a marca de 70% de acurácia.
 
 ## 📈 Resultados
 
-- 👥 A densidade populacional foi identificada como a variável com a maior correlação com os casos de dengue.
-- 📊 O modelo de regressão foi moderadamente eficaz para a cidade do Rio de Janeiro (com Pseudo R2 de 0.63), mas menos eficaz para outros municípios.
-- ✅ A análise mostrou a importância de dados completos e de qualidade para resultados preditivos confiáveis.
+- 👥 **Densidade populacional** foi a variável mais correlacionada com os casos de dengue.
+- 📊 **Modelos de predição** mostraram que a eficácia varia por município, com a árvore de decisão e SVM apresentando os melhores desempenhos em regiões específicas.
+- ✅ **Análise preditiva** indicou picos de casos no primeiro trimestre do ano, validando a importância das variáveis climáticas no comportamento sazonal da doença.
 
 ## ⚠️ Limitações e Trabalhos Futuros
 
-- **Limitações**: Falta de dados completos para o DF, o que limitou a análise preditiva nesta região.
-- **Melhorias sugeridas**: Inclusão de variáveis socioeconômicas e extensão do período de coleta de dados.
+- **Limitações**: Dados incompletos no DF afetaram a robustez da análise preditiva nessa região.
+- **Melhorias futuras**: Sugere-se a inclusão de variáveis socioeconômicas e a ampliação da coleta de dados para melhorar a precisão das previsões.
 
 ## 👥 Autores
 - **Lucas Santos Dalmaso** – [📧 Email](mailto:lucassdalmaso25@gmail.com)
@@ -54,4 +63,4 @@ Foi utilizada a **regressão logística multivalorada** para prever a incidênci
 - **Raul Carvalho de Souza (Orientador)** – [📧 Email](mailto:raul.souza@iesb.edu.br)
 
 ## 🙏 Agradecimentos
-Agradecemos à instituição de ensino **IESB** pelo suporte acadêmico e pela oportunidade de desenvolver esta pesquisa. Também expressamos nossa gratidão ao professor **Raul Carvalho de Souza**, cujo suporte e orientação foram fundamentais para a conclusão deste trabalho.
+Agradecemos ao **IESB** pelo suporte acadêmico e ao professor **Raul Carvalho de Souza** por sua orientação e apoio durante o desenvolvimento deste projeto.
