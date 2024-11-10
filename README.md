@@ -52,6 +52,11 @@ Cada modelo foi avaliado quanto à acurácia, e a comparação revelou que o mod
 - 📊 **Modelos de predição** mostraram que a eficácia varia por município, com a árvore de decisão e SVM apresentando os melhores desempenhos em regiões específicas.
 - ✅ **Análise preditiva** indicou picos de casos no primeiro trimestre do ano, validando a importância das variáveis climáticas no comportamento sazonal da doença.
 
+## 🔗 Acesso ao Código
+
+- [Link para o código da análise estatística descritiva](https://github.com/07Dalmaso/TCC-Analise-de-dados-da-dengue/tree/master/TCC%20-%20CODIGO%20FINAL)
+- [Link para o código da análise preditiva](https://github.com/07Dalmaso/TCC-Analise-de-dados-da-dengue/blob/master/TCC%20-%20ANALISE%20PREDITIVA/anlise_preditiva.ipynb)
+
 ## ⚠️ Limitações e Trabalhos Futuros
 
 - **Limitações**: Dados incompletos no DF afetaram a robustez da análise preditiva nessa região.
